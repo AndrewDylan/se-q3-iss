@@ -23,11 +23,5 @@ You will need to supply the lat/lon coordinates as query parameters to this URL.
 ## Testing
 Make sure you are rendering the ISS at the correct geo-coordinates.  Check your solution against NASA's [real-time ISS location tracker](https://spotthestation.nasa.gov/tracking_map.cfm).  If your position looks odd, you may be reversing the meaning of your lat/lon when using the `Turtle.goto()` function.  `Turtle.goto()` expects to receive an x,y coordinate pair.  Remember that longitudes are x, and latitudes are y.
 
-## PR (Pull Request) Workflow for this assignment
-1. *Fork* this repository into your own personal GitHub account.
-2. *Clone* your own repo to your local development machine.
-3. Create a separate branch named `dev` and checkout the branch.
-5. Commit your changes, then `git push` the branch back to your own GitHub account.
-5. From your own GitHub repo, create a pull request (PR) *from your `dev` branch back to **your own** master*.
-6. Copy/Paste the URL **link to your PR** as your assignment submission.
-7. Your grader will post code review comments inline within your pull request in your GitHub account. Be sure to respond to any comments and make requested changes. **RESUBMIT** a new link to your PR after making changes. This is the code review iteration cycle.
+## Submitting your work
+To submit your solution for grading, you will need to create a github [Pull Request (PR)](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).  Refer to the `PR Workflow` article in your course content for details.
